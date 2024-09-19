@@ -8,8 +8,9 @@ const Navbar = () => {
             </div>
             <div className="flex-none gap-2">
                 <div className="flex-1">
-                    <Link to='/login' className="btn btn-ghost text-sm">Login</Link>
-                    <Link to='/register' className="btn btn-ghost text-sm">Registro</Link>
+                    <Link to='/login' className="btn btn-ghost text-sm font-normal">Login</Link>
+                    <Link to='/register' className="btn btn-ghost text-sm font-normal">Registro</Link>
+                    <Link to='/create-trip' className="btn btn-ghost text-sm font-normal">Crear viaje</Link>
                 </div>
                 <button className="btn btn-ghost btn-circle">
                     <div className="indicator">
@@ -43,10 +44,10 @@ const Navbar = () => {
                         <li>
                             <a className="justify-between">
                                 Perfil
-                                <span className="badge">Nuevo</span>
+                                <span className="badge border border-white pb-1">Nuevo</span>
                             </a>
                         </li>
-                        <li><a>Preferencias</a></li>
+                        <li><a>Configuración</a></li>
                         <li><a>Logout</a></li>
                     </ul>
                 </div>
