@@ -11,6 +11,7 @@ const AppRoutes = () => {
             <Route path='/' element={<HomePage />} />
             <Route path='/login' element={<LoginPage />} />
             <Route path='/register' element={<RegisterPage />} />
+            <Route path='/create-trip' element={<h1>Crear viaje...</h1>} />
             <Route path='*' element={<NotFoundPage />} />
 
             <Route element={<ProtectedRoutes />}>
