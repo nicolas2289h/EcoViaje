@@ -9,7 +9,8 @@
         "filters": {
             "pets": true,
             "smokers": false,
-            "children": false
+            "children": false,
+            "maxPrice": 100  
         }
     },
     {
@@ -22,7 +23,8 @@
         "filters": {
             "pets": false,
             "smokers": false,
-            "children": true
+            "children": true,
+            "maxPrice": 150  
         }
     },
     {
@@ -35,7 +37,8 @@
         "filters": {
             "pets": false,
             "smokers": true,
-            "children": false
+            "children": false,
+            "maxPrice": 80  
         }
     },
     {
@@ -48,7 +51,8 @@
         "filters": {
             "pets": false,
             "smokers": false,
-            "children": false
+            "children": false,
+            "maxPrice": 120  
         }
     },
     {
@@ -61,7 +65,8 @@
         "filters": {
             "pets": true,
             "smokers": true,
-            "children": true
+            "children": true,
+            "maxPrice": 200  
         }
     }
 ]

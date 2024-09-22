@@ -2,16 +2,17 @@ import { useState } from "react";
 import ListTripCards from "../components/trip/ListTripCards"
 import TripForm from "../components/trip/TripForm"
 import initialDataTrips from '../utils/initialDataTrips.json';
+import Container from "../components/shared/Container";
 
 const HomePage = () => {
-  let [listDataTrips, setListDataTrips] = useState(initialDataTrips)
+  let [listDataTrips] = useState(initialDataTrips)
 
   return (
-    <main className="my-7 flex flex-col gap-7">
+    <Container>
       <h1>Buscá tu viaje!</h1>
       <TripForm />
       <ListTripCards listDataTrips={listDataTrips} />
-    </main>
+    </Container>
   )
 }
 export default HomePage
