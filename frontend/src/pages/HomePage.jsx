@@ -9,7 +9,7 @@ const HomePage = () => {
 
   return (
     <Container>
-      <h1>Buscá tu viaje!</h1>
+      <h1 className="text-lg tracking-wider">Buscá tu viaje!</h1>
       <TripForm />
       <ListTripCards listDataTrips={listDataTrips} />
     </Container>

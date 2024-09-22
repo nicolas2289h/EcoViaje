@@ -58,8 +58,8 @@ const TripForm = () => {
                         onChange={handleChange}
                         name="origin"
                         value={tripData.origin}
-                        type="text"
-                        placeholder="Origin"
+                        type="search"
+                        placeholder="Origen"
                         className='outline-none py-1 px-3 h-full'
                     />
                 </div>
@@ -73,8 +73,8 @@ const TripForm = () => {
                         onChange={handleChange}
                         name="destination"
                         value={tripData.destination}
-                        type="text"
-                        placeholder="Destination"
+                        type="search"
+                        placeholder="Destino"
                         className='outline-none py-1 px-3 h-full'
                     />
                 </div>
