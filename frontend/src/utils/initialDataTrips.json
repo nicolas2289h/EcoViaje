@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "origin": "New York",
+        "destination": "Boston",
+        "date": "2024-09-25",
+        "passengers": 2,
+        "status": "pending",
+        "filters": {
+            "pets": true,
+            "smokers": false,
+            "children": false
+        }
+    },
+    {
+        "id": 2,
+        "origin": "San Francisco",
+        "destination": "Los Angeles",
+        "date": "2024-10-01",
+        "passengers": 4,
+        "status": "completed",
+        "filters": {
+            "pets": false,
+            "smokers": false,
+            "children": true
+        }
+    },
+    {
+        "id": 3,
+        "origin": "Chicago",
+        "destination": "Detroit",
+        "date": "2024-11-05",
+        "passengers": 1,
+        "status": "pending",
+        "filters": {
+            "pets": false,
+            "smokers": true,
+            "children": false
+        }
+    },
+    {
+        "id": 4,
+        "origin": "Paris",
+        "destination": "Berlin",
+        "date": "2024-12-15",
+        "passengers": 3,
+        "status": "pending",
+        "filters": {
+            "pets": false,
+            "smokers": false,
+            "children": false
+        }
+    },
+    {
+        "id": 5,
+        "origin": "Madrid",
+        "destination": "Barcelona",
+        "date": "2024-09-30",
+        "passengers": 4,
+        "status": "completed",
+        "filters": {
+            "pets": true,
+            "smokers": true,
+            "children": true
+        }
+    }
+]
