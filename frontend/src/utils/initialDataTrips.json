@@ -7,7 +7,16 @@
         "time": "14:00",
         "passengers": 2,
         "status": "pendiente",
-        "driver": "Juan Pérez",
+        "driver": {
+            "name": "Juan Pérez",
+            "details": {
+                "rating": 4.5,
+                "reviews": [
+                    "Gran viaje, ¡muy amable y servicial!",
+                    "A tiempo y conducción segura, excelente."
+                ]
+            }
+        },
         "filters": {
             "pets": true,
             "smokers": false,
@@ -23,7 +32,16 @@
         "time": "09:30",
         "passengers": 4,
         "status": "completado",
-        "driver": "María López",
+        "driver": {
+            "name": "María López",
+            "details": {
+                "rating": 4.8,
+                "reviews": [
+                    "Excelente servicio, ¡lo recomiendo mucho a todos!",
+                    "Vehículo muy limpio y bien cuidado."
+                ]
+            }
+        },
         "filters": {
             "pets": false,
             "smokers": false,
@@ -39,7 +57,16 @@
         "time": "17:45",
         "passengers": 1,
         "status": "pendiente",
-        "driver": "Carlos Fernández",
+        "driver": {
+            "name": "Carlos Fernández",
+            "details": {
+                "rating": 4.0,
+                "reviews": [
+                    "Conductor amable y educado, muy atento.",
+                    "Podría mejorar en puntualidad y llegar antes."
+                ]
+            }
+        },
         "filters": {
             "pets": false,
             "smokers": true,
@@ -55,7 +82,16 @@
         "time": "11:15",
         "passengers": 3,
         "status": "pendiente",
-        "driver": "Ana Martínez",
+        "driver": {
+            "name": "Ana Martínez",
+            "details": {
+                "rating": 5.0,
+                "reviews": [
+                    "¡Excelente conductor, fue un viaje muy tranquilo.",
+                    "Super amable y servicial, altamente recomendable."
+                ]
+            }
+        },
         "filters": {
             "pets": false,
             "smokers": false,
@@ -71,7 +107,16 @@
         "time": "08:00",
         "passengers": 4,
         "status": "completado",
-        "driver": "Pablo Rodríguez",
+        "driver": {
+            "name": "Pablo Rodríguez",
+            "details": {
+                "rating": 3.5,
+                "reviews": [
+                    "Viaje aceptable, pero hay margen de mejora considerable.",
+                    "Amable, pero el vehículo era un poco viejo y ruidoso."
+                ]
+            }
+        },
         "filters": {
             "pets": true,
             "smokers": true,
