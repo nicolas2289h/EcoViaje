@@ -1,7 +1,9 @@
 import { formatDate } from '../../utils/utils'
 import imgRoute from '../../assets/img/route-1.jpg'
+import { useNavigate } from 'react-router-dom'
 
 const TripCard = ({ trip }) => {
+    const navigate = useNavigate()
     const { filters } = trip
 
     return (
@@ -26,7 +28,7 @@ const TripCard = ({ trip }) => {
                     <div className="badge border-green-300 text-green-300 badge-outline text-xs">Hasta ${filters.maxPrice}</div>
                 </div>
                 <div>
-                    <button className="btn btn-primary mt-1">Reservar</button>
+                    <button onClick={() => navigate(`/detail-trip/${trip.id}`)} className="btn btn-primary mt-1">Reservar</button>
                 </div>
             </div>
         </div>
