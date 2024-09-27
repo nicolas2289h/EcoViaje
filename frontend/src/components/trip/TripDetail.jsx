@@ -5,12 +5,14 @@ import DriverRating from '../driver/DriverRating';
 import DriverListReviews from '../driver/DriverListReviews';
 import DriverCancellationPolicy from '../driver/DriverCancellationPolicy';
 import DriverMeetingPoint from '../driver/DriverMeetingPoint';
+import { useNavigate } from 'react-router-dom';
 
 const TripDetail = ({ id }) => {
     // AGREGAR FETCH PARA OBTENER LA INFORMACION DEL VIAJE (ID)
 
     const trip = initialDataTrips.find(item => item.id === Number(id))
     const { filters, driver } = trip
+    const navigate = useNavigate()
 
     return (
         <Container>
@@ -39,7 +41,7 @@ const TripDetail = ({ id }) => {
                     <div className='w-[400px] border-gray-700 border p-5 rounded-md flex justify-center items-center gap-8'>
                         <p>TOTAL: $16000</p>
                         {/* <a href="#" className='underline font-bold'>Más Información</a> */}
-                        <button className="btn btn-primary mt-1 text-white">Confirmar Reserva</button>
+                        <button onClick={() => navigate('/payment-method')} className="btn btn-primary mt-1 text-white">Continuar con el pago</button>
                     </div>
                 </div>
 

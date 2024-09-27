@@ -52,7 +52,7 @@ const TripForm = () => {
     return (
         <>
             <form className='flex justify-center items-center gap-2' onSubmit={handleSubmit}>
-                <div className="flex items-center border h-8">
+                <div className="flex items-center border border-gray-700 h-8">
                     <MapPinIcon className="h-4 text-red-500 mx-2" />
                     <input
                         onChange={handleChange}
@@ -67,7 +67,7 @@ const TripForm = () => {
                     onClick={handleExchangeValues}
                     className='h-8 w-10 text-gray-500 cursor-pointer border border-gray-700 rounded-md p-[5px]'
                 />
-                <div className="flex items-center border h-8">
+                <div className="flex items-center border border-gray-700 h-8">
                     <MapPinIcon className="h-4 text-red-500 mx-2" />
                     <input
                         onChange={handleChange}
@@ -85,10 +85,10 @@ const TripForm = () => {
                         value={tripData.date}
                         type="date"
                         min={today}
-                        className="border h-8 px-3"
+                        className="border border-gray-700 h-8 px-3"
                     />
                 </div>
-                <div className="flex items-center border h-8">
+                <div className="flex items-center border border-gray-700 h-8">
                     <UserIcon className="h-4 text-blue-500 mx-2" />
                     <input
                         onChange={handleChange}
