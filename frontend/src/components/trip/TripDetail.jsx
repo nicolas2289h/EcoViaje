@@ -4,6 +4,7 @@ import mapa from '../../assets/img/mapa.png'
 import DriverRating from '../driver/DriverRating';
 import DriverListReviews from '../driver/DriverListReviews';
 import DriverCancellationPolicy from '../driver/DriverCancellationPolicy';
+import DriverMeetingPoint from '../driver/DriverMeetingPoint';
 
 const TripDetail = ({ id }) => {
     // AGREGAR FETCH PARA OBTENER LA INFORMACION DEL VIAJE (ID)
@@ -44,6 +45,7 @@ const TripDetail = ({ id }) => {
 
                 <div className='flex flex-col gap-4 h-500'>
                     <DriverRating driver={driver} />
+                    <DriverMeetingPoint />
                     <DriverCancellationPolicy />
                     <DriverListReviews driver={driver} />
                 </div>
