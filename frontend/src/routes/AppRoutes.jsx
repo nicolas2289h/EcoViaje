@@ -5,6 +5,7 @@ import NotFoundPage from '../pages/NotFoundPage'
 import RegisterPage from '../pages/RegisterPage'
 import ProtectedRoutes from './ProtectedRoutes'
 import DetailTripPage from '../pages/DetailTripPage'
+import PaymentMethodPage from '../pages/PaymentMethodPage'
 
 const AppRoutes = () => {
     return (
@@ -14,6 +15,7 @@ const AppRoutes = () => {
             <Route path='/register' element={<RegisterPage />} />
             <Route path='/create-trip' element={<h1>Crear viaje...</h1>} />
             <Route path='/detail-trip/:id' element={<DetailTripPage />} />
+            <Route path='/payment-method' element={<PaymentMethodPage />} />
             <Route path='*' element={<NotFoundPage />} />
 
             <Route element={<ProtectedRoutes />}>
